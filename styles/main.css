@@ -1,3 +1,8 @@
+body { 
+    padding-top: 50px; 
+}
+
+/* Index */
 #header {
     background: url("../images/header-background.png") no-repeat top center fixed;
     background-size: cover;
@@ -52,4 +57,14 @@ p {
 footer {
     background-color: #FFFFFF;
     color: rgba(0, 0, 0, 0.6);
+}
+
+/* My Experience */
+.exp-header {
+    
+}
+
+.well {
+    background-color: khaki;
+    text-align: center;
 }
