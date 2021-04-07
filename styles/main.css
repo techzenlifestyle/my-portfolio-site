@@ -61,7 +61,13 @@ footer {
 
 /* My Experience */
 .exp-header {
-    
+    display: flex;
+    align-items: center;
+    height: 450px;
+}
+
+.text-center {
+    margin-top: 125px;
 }
 
 .well {
