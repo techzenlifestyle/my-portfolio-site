@@ -22,7 +22,7 @@ body {
 }
 
 p {
-    font-size: 24px;
+    font-size: 16px;
 }
 
 #services {
@@ -63,14 +63,18 @@ footer {
 .exp-header {
     display: flex;
     align-items: center;
-    height: 450px;
+    height: 375px;
+    background-color: #F9FDFF;
 }
 
-.text-center {
-    margin-top: 125px;
+.center {
+    margin-top: 70px;
 }
 
-.well {
-    background-color: khaki;
-    text-align: center;
+.exp-timeline {
+    margin-top: 60px;
+}
+
+.timeline-date {
+    margin-bottom: -2px;
 }
