@@ -78,3 +78,66 @@ footer {
 .timeline-date {
     margin-bottom: -2px;
 }
+
+.exp-content {
+    margin-bottom: 60px;
+}
+
+/* Contact */
+.contact-header {
+    background: url("../images/header-background.png") no-repeat top center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.contact-title {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.padding-top {
+    padding-top: 180px;
+}
+
+.fa {
+    margin: 12px;
+    padding: 18px;
+    font-size: 30px;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+  }
+    
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: linear-gradient(180deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+.fa-github {
+    background: #333;
+    color: white;
+}
