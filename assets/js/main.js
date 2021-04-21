@@ -59,7 +59,7 @@ var toggleView = function(isChanged, btn) {
         resumeBtn.classList.remove('btn-dark');
         resumeBtn.classList.add('btn-primary');
         btn.classList.remove('btn-dark');
-        timelineArrow.src = "images/arrow.svg"
+        timelineArrow.src = "/assets/images/arrow.svg"
         btn.classList.add('btn-primary');
         isChanged.Value = false;
     } else {
@@ -73,7 +73,7 @@ var toggleView = function(isChanged, btn) {
         resumeBtn.classList.remove('btn-primary');
         resumeBtn.classList.add('btn-dark');
         btn.classList.remove('btn-primary');
-        timelineArrow.src = "images/arrow-gold.svg"
+        timelineArrow.src = "/assets/images/arrow-gold.svg"
         btn.classList.add('btn-dark');
         isChanged.Value = true;
     }
