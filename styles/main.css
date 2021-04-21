@@ -63,7 +63,7 @@ p {
 }
 
 /* My Experience */
-.exp-header {
+#exp-header {
     display: flex;
     align-items: center;
     height: 375px;

@@ -40,7 +40,47 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
+var toggleView = function(isChanged, btn) {
+    // change header background color
+    var header = document.getElementById("exp-header")
+    var resumeBtn = document.getElementById("resume-btn")
+    var timelineArrow = document.getElementById("timeline-arrow")
+    var expElements = document.getElementsByClassName("exp-toggle-content")
+    var ecaElements = document.getElementsByClassName("eca-toggle-content")
+    
+    if(isChanged.Value) {
+        for (var i = 0; i < ecaElements.length; i++) {
+            ecaElements[i].style.display = "none";
+        }
+        for (var i = 0; i < expElements.length; i++) {
+            expElements[i].style.display = "block";
+        }
+        header.style.background = "#F9FDFF";
+        resumeBtn.classList.remove('btn-dark');
+        resumeBtn.classList.add('btn-primary');
+        btn.classList.remove('btn-dark');
+        timelineArrow.src = "images/arrow.svg"
+        btn.classList.add('btn-primary');
+        isChanged.Value = false;
+    } else {
+        for (var i = 0; i < expElements.length; i++) {
+            expElements[i].style.display = "none";
+        }
+        for (var i = 0; i < ecaElements.length; i++) {
+            ecaElements[i].style.display = "block";
+        }
+        header.style.background = "#FFF5B4";
+        resumeBtn.classList.remove('btn-primary');
+        resumeBtn.classList.add('btn-dark');
+        btn.classList.remove('btn-primary');
+        timelineArrow.src = "images/arrow-gold.svg"
+        btn.classList.add('btn-dark');
+        isChanged.Value = true;
+    }
+};
+
 window.onload = function() {
+    //Typewriter animation
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
@@ -49,9 +89,12 @@ window.onload = function() {
           new TxtType(elements[i], JSON.parse(toRotate), period);
         }
     }
-    // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
-};
+    
+    var isChanged = {Value: false};
+    var button = document.getElementById("eca-btn");
+    button.addEventListener("click", function() { toggleView(isChanged, button) } );
+}
