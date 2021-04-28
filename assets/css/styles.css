@@ -12,6 +12,11 @@ p {
     font-size: 16px;
 }
 
+.align {
+    display: flex;
+    align-items: center;
+}
+
 /* Index */
 #header {
     background: url("../images/header-background.png") no-repeat top center fixed;
@@ -60,6 +65,55 @@ p {
 #contact-btn {
     position: absolute;
     margin-top: 120px;
+}
+
+#testimonials {
+    height: 500px;
+    padding: 120px;
+    text-align: center;
+}
+
+.testimonial-img {
+    margin-top: 15px;
+    margin-bottom: 45px;
+    width: 120px;
+    height: 120px;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    bottom: -375px;
+}
+
+.carousel-control-next {
+    margin-right: 460px;
+}
+
+.carousel-control-prev {
+    margin-left: 460px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 2px solid grey;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 36px;
+    color: grey;
+    /* margin-right: 40px; */
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 36px;
+    color: grey;
+    /* margin-left: 40px; */
 }
 
 /* My Experience */
