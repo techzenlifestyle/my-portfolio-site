@@ -14,7 +14,7 @@ p {
 
 /* Index */
 #header {
-    background: url("../images/header-background.png") no-repeat top center fixed;
+    background: url("../images/header-background.jpg") no-repeat top center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -48,7 +48,7 @@ p {
 }
 
 #connect {
-    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.png") no-repeat top center fixed;
+    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.jpg") no-repeat top center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ p {
 }
 
 #exp-connect {
-    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.png") no-repeat center fixed;
+    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/connect.JPG") no-repeat center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -105,7 +105,7 @@ p {
 
 /* Blog */
 .placeholder {
-    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.png") no-repeat center fixed;
+    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.jpg") no-repeat center fixed;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -116,12 +116,13 @@ p {
 
 /* Contact */
 .contact-header {
-    background: url("../images/header-background.png") no-repeat top center;
+    background: url("../images/contact-header.JPG");
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 500px;
+    color: white;
 }
 
 .contact-title {
