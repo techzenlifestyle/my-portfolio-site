@@ -29,14 +29,13 @@ p {
 
 .header-content {
     margin-left: 8px;
+    
 }
 
 #services {
     background-color: #F9FDFF;
     height: 500px;
     text-align: center;
-    /* padding-top: 60px;
-    padding-bottom: 60px; */
 }
 
 .services-heading {
