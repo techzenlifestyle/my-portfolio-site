@@ -17,6 +17,10 @@ p {
     align-items: center;
 }
 
+.no-padding {
+    padding: 0;
+}
+
 /* Index */
 #header {
     background: url("../images/header-background.jpg") no-repeat top center fixed;
@@ -39,7 +43,7 @@ p {
 
 #services {
     background-color: #F9FDFF;
-    height: 100vh;
+    height: 80vh;
     text-align: center;
 }
 
@@ -53,7 +57,7 @@ p {
 
 #testimonials {
     height: 100vh;
-    padding: 120px;
+    /* padding: 120px; */
     text-align: center;
 }
 
@@ -143,12 +147,6 @@ p {
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 480px) {
-    .arrow {
-        display: none !important;
-    }
-}
-
 /* Blog */
 .placeholder {
     background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.jpg") no-repeat center fixed;
@@ -222,4 +220,26 @@ p {
 .fa-github {
     background: #333;
     color: white;
+}
+
+@media screen and (max-width: 768px) {
+    #services {
+        height: 180vh !important;
+    }
+
+    #testimonials {
+        height: 120vh !important;
+    }
+
+    .carousel-control-prev-icon {
+        margin-right: 50px;
+    } 
+    
+    .carousel-control-next-icon {
+        margin-left: 50px;
+    }
+
+    .arrow {
+        display: none !important;
+    }
 }
