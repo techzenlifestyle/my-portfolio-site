@@ -23,7 +23,7 @@ p {
     background-size: cover;
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 100vh;
     margin: 0;
     padding: 0;
 }
@@ -39,7 +39,7 @@ p {
 
 #services {
     background-color: #F9FDFF;
-    height: 500px;
+    height: 100vh;
     text-align: center;
 }
 
@@ -51,23 +51,8 @@ p {
     margin-top: 24px;
 }
 
-#connect {
-    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.jpg") no-repeat top center fixed;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    color: #FFFFFF;
-}
-
-#contact-btn {
-    position: absolute;
-    margin-top: 120px;
-}
-
 #testimonials {
-    height: 500px;
+    height: 100vh;
     padding: 120px;
     text-align: center;
 }
@@ -79,18 +64,6 @@ p {
     height: 120px;
 }
 
-.carousel-control-next, .carousel-control-prev {
-    bottom: -375px;
-}
-
-.carousel-control-next {
-    margin-right: 460px;
-}
-
-.carousel-control-prev {
-    margin-left: 460px;
-}
-
 .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 60px;
     width: 60px;
@@ -99,27 +72,41 @@ p {
     border-radius: 50%;
     border: 2px solid grey;
     background-image: none;
+    margin-top: 75vh;
 }
 
 .carousel-control-next-icon:after {
     content: '>';
     font-size: 36px;
     color: grey;
-    /* margin-right: 40px; */
 }
 
 .carousel-control-prev-icon:after {
     content: '<';
     font-size: 36px;
     color: grey;
-    /* margin-left: 40px; */
+}
+
+#connect {
+    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.jpg") no-repeat top center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+#contact-btn {
+    position: absolute;
+    margin-top: 120px;
 }
 
 /* My Experience */
 #exp-header {
     display: flex;
     align-items: center;
-    height: 375px;
+    height: 90vh;
     background-color: #F9FDFF;
 }
 
@@ -152,7 +139,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 100vh;
     color: #FFFFFF;
 }
 
@@ -174,7 +161,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 500px;
+    height: 100vh;
     color: white;
 }
 
