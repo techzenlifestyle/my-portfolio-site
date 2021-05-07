@@ -143,6 +143,12 @@ p {
     color: #FFFFFF;
 }
 
+@media screen and (max-width: 480px) {
+    .arrow {
+        display: none !important;
+    }
+}
+
 /* Blog */
 .placeholder {
     background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.jpg") no-repeat center fixed;
