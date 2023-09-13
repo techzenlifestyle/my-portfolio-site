@@ -43,10 +43,13 @@ p {
     font-weight: bold;
 }
 
+.collapse ul li a {
+    transition: 0.3s;
+}
+
 .collapse ul li a:hover {
     border-bottom: 3px solid white;
     color: white !important;
-
 }
 
 /* Index */
