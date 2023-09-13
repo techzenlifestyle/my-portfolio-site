@@ -1,6 +1,6 @@
 /* Global */
 body { 
-    padding-top: 50px; 
+    /* padding-top: 50px;  */
 }
 
 footer {
@@ -21,25 +21,63 @@ p {
     padding: 0;
 }
 
-/* Index */
-#header {
-    background: url("../images/header-background.jpg") no-repeat top center fixed;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
+/* Navbar */
+.navbar {
+    /* background-color: rgba(131, 139, 197, 0.6); */
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+
+.logo-icon {
+    width: 98px;
+    height: 98px;
 }
 
 .navbar-brand {
     margin-left: 8px;
+    font-size: 36px;
+    font-weight: bold;
+    /* color: white !important; */
+}
+
+#navbar-content {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.collapse ul li a {
+    transition: 0.3s;
+}
+
+.collapse ul li a:hover {
+    border-bottom: 3px solid rgba(58, 0, 91);
+    color: rgba(58, 0, 91) !important;
+}
+
+/* Index */
+#header {
+    background: url("../images/header-background-new-dark.png") center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    /* margin: 0; */
+    /* padding: 0; */
+    color: white !important;
 }
 
 .header-content {
-    margin-left: 8px;
-    
+    margin-left: -100px;
 }
+
+#header h1 {
+    font-size: 60px;
+}
+
+#header p {
+    font-size: 36px;
+}
+
 
 #services {
     background-color: #F9FDFF;
