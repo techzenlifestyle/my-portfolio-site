@@ -4,8 +4,7 @@ body {
 }
 
 footer {
-    background-color: #F9FDFF;
-    color: rgba(0, 0, 0, 0.6);
+    height: 65vh;
 }
 
 p {
@@ -23,9 +22,7 @@ p {
 
 /* Navbar */
 .navbar {
-    /* background-color: rgba(131, 139, 197, 0.6); */
     background-color: rgba(255, 255, 255, 0.7);
-
 }
 
 .logo-icon {
@@ -78,55 +75,15 @@ p {
     font-size: 36px;
 }
 
-
-#services {
-    background-color: #F9FDFF;
+.about-section {
     height: 80vh;
-    text-align: center;
+    background: url("../images/contact-image.jpg") center;
 }
 
-.services-heading {
-    padding: 36px;
-}
-
-.services-content {
-    margin-top: 24px;
-}
-
-#testimonials {
-    height: 100vh;
-    /* padding: 120px; */
-    text-align: center;
-}
-
-.testimonial-img {
-    margin-top: 15px;
-    margin-bottom: 45px;
-    width: 120px;
-    height: 120px;
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    height: 60px;
-    width: 60px;
-    outline: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    border: 2px solid grey;
-    background-image: none;
-    margin-top: 75vh;
-}
-
-.carousel-control-next-icon:after {
-    content: '>';
-    font-size: 36px;
-    color: grey;
-}
-
-.carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 36px;
-    color: grey;
+.about-box {
+    margin-top: 12vh;
+    padding: 100px;
+    background: white;
 }
 
 #connect {
@@ -144,58 +101,6 @@ p {
     margin-top: 120px;
 }
 
-/* My Experience */
-#exp-header {
-    display: flex;
-    align-items: center;
-    height: 90vh;
-    background-color: #F9FDFF;
-}
-
-.center {
-    margin-top: 70px;
-}
-
-.exp-timeline {
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-.timeline-date {
-    margin-bottom: -2px;
-}
-
-.exp-content {
-    margin-bottom: 80px;
-}
-
-.exp-button {
-    text-align: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-#exp-connect {
-    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/connect.JPG") no-repeat center fixed;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: #FFFFFF;
-}
-
-/* Blog */
-.placeholder {
-    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.jpg") no-repeat center fixed;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 700px;
-    color: #FFFFFF;
-}
-
 /* Contact */
 .contact-header {
     background: url("../images/contact-header.JPG");
@@ -208,16 +113,32 @@ p {
 }
 
 .contact-title {
+    padding: 40px 0 40px 40px;
+}
+
+.copyright {
+    background-color: rgba(58, 0, 91);
+    color: white;
+}
+
+.socials {
     padding-top: 40px;
-    padding-bottom: 40px;
+}
+
+.btn {
+    background-color: rgba(58, 0, 91);
+}
+
+.btn:hover {
+    background-color: rgba(131, 139, 197);
 }
 
 .contact {
-    margin-bottom: 70px;
+    padding: 40px 40px 40px 40px;
 }
 
 .padding-top {
-    padding-top: 180px;
+    padding-top: 80px;
 }
 
 .fa {
