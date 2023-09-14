@@ -4,8 +4,7 @@ body {
 }
 
 footer {
-    background-color: #F9FDFF;
-    color: rgba(0, 0, 0, 0.6);
+    height: 65vh;
 }
 
 p {
@@ -208,16 +207,32 @@ p {
 }
 
 .contact-title {
+    padding: 40px 0 40px 40px;
+}
+
+.copyright {
+    background-color: rgba(58, 0, 91);
+    color: white;
+}
+
+.socials {
     padding-top: 40px;
-    padding-bottom: 40px;
+}
+
+.btn {
+    background-color: rgba(58, 0, 91);
+}
+
+.btn:hover {
+    background-color: rgba(131, 139, 197);
 }
 
 .contact {
-    margin-bottom: 70px;
+    padding: 40px 40px 40px 40px;
 }
 
 .padding-top {
-    padding-top: 180px;
+    padding-top: 80px;
 }
 
 .fa {
