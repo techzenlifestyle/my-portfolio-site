@@ -75,6 +75,7 @@ p {
     font-size: 36px;
 }
 
+/* About */
 .about-section {
     height: 80vh;
     background: url("../images/contact-image.jpg") center;
@@ -86,19 +87,9 @@ p {
     background: white;
 }
 
-#connect {
-    background: linear-gradient(0deg, rgba(30, 116, 241, 0.3), rgba(30, 116, 241, 0.3)), url("../images/contact-image.jpg") no-repeat top center fixed;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color: #FFFFFF;
-}
-
-#contact-btn {
-    position: absolute;
-    margin-top: 120px;
+/* Portfolio */
+.portfolio-header {
+    
 }
 
 /* Contact */
