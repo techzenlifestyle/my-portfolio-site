@@ -30,6 +30,11 @@ p {
     height: 98px;
 }
 
+.font-logo {
+    width: 220px;
+    height: 45.46px;
+}
+
 .navbar-brand {
     margin-left: 8px;
     font-size: 36px;
@@ -88,8 +93,24 @@ p {
 }
 
 /* Portfolio */
+/* #portfolio {
+    height: 100vh;
+} */
+
 .portfolio-header {
-    
+    height: 10vh;
+    background: rgba(58, 0, 91);
+    color: white;
+    padding-top: 15px;
+}
+
+.portfolio-content {
+    margin-top: 25px;
+}
+
+.pf-item a {
+    margin-bottom: 25px;
+    text-decoration: none;
 }
 
 /* Contact */
