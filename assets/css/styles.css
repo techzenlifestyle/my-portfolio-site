@@ -194,13 +194,44 @@ p {
 }
 
 @media screen and (max-width: 768px) {
-    #services {
-        height: 180vh !important;
+    .logo-icon {
+        width: 50px;
+        height: 50px;
     }
 
-    #testimonials {
-        height: 120vh !important;
+    #header {
+        background: url("../images/header-background-dark-mobile.png") center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        height: 90vh;
+        color: white !important;
     }
+
+    .header-content {
+        margin-left: 0;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 36px !important;
+    }
+
+    p {
+        font-size: 24px !important;
+    }
+
+    .about-section {
+        height: 100%;
+        background: #fff;
+    }
+
+    .about-box {
+        padding: 10px;
+        margin-bottom: 25px;
+        background: white;
+    }
+
 
     .carousel-control-prev-icon {
         margin-right: 50px;
