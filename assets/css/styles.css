@@ -93,6 +93,7 @@ p {
 }
 
 /* Portfolio */
+
 /* #portfolio {
     height: 100vh;
 } */
@@ -111,6 +112,22 @@ p {
 .pf-item a {
     margin-bottom: 25px;
     text-decoration: none;
+}
+
+/* Quote */
+
+.quote {
+    height: 100vh;
+    background: rgba(58, 0, 91);
+    color: #fff;
+    padding: 0 10vw 0 10vw;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote-section {
+    padding-top: 16vh;
 }
 
 /* Contact */
@@ -134,7 +151,7 @@ p {
 }
 
 .socials {
-    padding-top: 40px;
+    padding-top: 10vh;
 }
 
 .btn {
