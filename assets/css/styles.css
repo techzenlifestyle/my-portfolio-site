@@ -141,6 +141,12 @@ p {
     padding-top: 9vh;
 }
 
+/* Press & Media */
+.pr-header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
 /* Contact */
 .contact-header {
     background: url("../images/contact-header.JPG");

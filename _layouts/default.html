@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js?render=6LfAr2koAAAAAJtczSiaJ8X2l_I_DiCl6wTRSCMR"></script>
     <link href="/assets/css/styles.css" rel="stylesheet">
     {% feed_meta %}
 
@@ -32,22 +32,22 @@
         <div class="col-sm-6 contact">
           <h2 class="">Let's Talk.</h2>
           </br>
-            <form action="https://getform.io/f/ac415a8c-2748-4647-8631-b3a4261654aa" method="POST" id="contact-form">
-              <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+            <form action="https://getform.io/f/f2051ec3-da3e-4a06-b38b-352cb74062c1" method="POST" id="contact-form">
+              <div class="" data-sitekey="your_site_key"></div>
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" name="name" placeholder="Darius Walker">
+                <input id="name" type="text" class="form-control" name="name" placeholder="Darius Walker">
               </div>
               <div class="form-group">
                 <label for="email">Email Address</label>
-                <input type="email" class="form-control" name="email" placeholder="name@example.com">
+                <input id="email" type="email" class="form-control" name="email" placeholder="name@example.com">
               </div>
               <div class="form-group">
                 <label for="message">Message</label>
-                <textarea class="form-control" name="message" rows="3"></textarea>
+                <textarea id="message" class="form-control" name="message" rows="3"></textarea>
               </div>
-              <button type="submit" data-sitekey="6Ld66ycoAAAAAGClGcdMv0CQyRlDbDVhYXXEQgck" 
-              data-callback='onSubmit' class="btn btn-primary .contact-button">Submit</button>
+              <input type="hidden" id="captchaResponse" name="g-recaptcha-response">
+              <button type="submit" class="btn btn-primary contact-button">Submit</button>
             </form>
         </div>
         <div class="col-sm-6 text-center padding-top">
