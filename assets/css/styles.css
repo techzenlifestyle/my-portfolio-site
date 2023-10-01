@@ -1,7 +1,40 @@
 /* Global */
+
+@font-face { 
+    font-family: 'Gotham'; 
+    src: url('Gotham-Book.otf');  
+} 
+
+@font-face { 
+    font-family: 'GothamBold'; 
+    src: url('Gotham-Bold.otf'); 
+} 
+
+@font-face { 
+    font-family: 'GothamItalic'; 
+    src: url('Gotham-BookItalic.otf'); 
+} 
+
 body { 
     /* padding-top: 50px;  */
+    font-family: 'Gotham';
 }
+
+h1 {
+    font-family: 'GothamBold';
+}
+
+em {
+    font-family: 'GothamItalic';
+    font-weight: normal;
+    font-style: normal;
+ }
+ 
+ strong {
+    font-family: 'GothamBold';
+    font-weight: normal;
+    font-style: normal;
+ }
 
 footer {
     height: 65vh;
