@@ -128,7 +128,6 @@ p {
     width: 220px;
     height: 45.46px;
     margin-left: 8px;
-    /* transition: 0.3s; */
 }
 
 @keyframes beating {
@@ -152,11 +151,6 @@ p {
 .homepage-link {
     text-decoration: none !important;
 }
-/* 
-#font-logo:hover {
-    transform: scale(1.05);
-    transform-origin: bottom;
-} */
 
 #navbar-content {
     font-size: 24px;
@@ -165,12 +159,16 @@ p {
 
 .collapse ul li a {
     transition: 0.3s;
+    text-decoration: none;
+    text-shadow: -.25px -.25px 0 transparent, 
+                  .25px .25px transparent;
 }
 
 .collapse ul li a:hover {
     border-bottom: 3px solid rgba(58, 0, 91);
     color: rgba(58, 0, 91) !important;
-    /* font-weight: bold; - MAKE THIS WORK */
+    text-shadow: -.25px -.25px 0 black, 
+    .25px .25px black;
 }
 
 /* Index */
