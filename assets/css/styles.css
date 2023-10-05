@@ -128,29 +128,29 @@ p {
     width: 220px;
     height: 45.46px;
     margin-left: 8px;
-    /* transition: 0.3s; */
 }
 
 @keyframes beating {
     0% {
-        transform: scale(1.05);
-    }
-    80% {
         transform: scale(1.0);
     }
-    100% {
+    10% {
+        transform: scale(1.05);
+    }
+    60% {
+        transform: scale(1.0);
+    }
+    80% {
         transform: scale(1.06);
+    }
+    100% {
+        transform: scale(1.0);
     }
   }
 
 .homepage-link {
     text-decoration: none !important;
 }
-/* 
-#font-logo:hover {
-    transform: scale(1.05);
-    transform-origin: bottom;
-} */
 
 #navbar-content {
     font-size: 24px;
@@ -159,12 +159,16 @@ p {
 
 .collapse ul li a {
     transition: 0.3s;
+    text-decoration: none;
+    text-shadow: -.25px -.25px 0 transparent, 
+                  .25px .25px transparent;
 }
 
 .collapse ul li a:hover {
     border-bottom: 3px solid rgba(58, 0, 91);
     color: rgba(58, 0, 91) !important;
-    /* font-weight: bold; - MAKE THIS WORK */
+    text-shadow: -.25px -.25px 0 black, 
+    .25px .25px black;
 }
 
 /* Index */
@@ -181,23 +185,16 @@ p {
     margin-left: -100px;
 }
 
-#header h1 {
-    font-size: 60px;
-}
-
-#header p {
-    font-size: 36px;
-}
-
 /* About */
 .about-section {
-    height: 80vh;
-    background: url("../images/contact-image.jpg") center;
+    height: 100vh;
+    background: url("../images/jjk-gif.gif") center;
+    background-size: cover;
 }
 
 .about-box {
-    margin-top: 12vh;
-    padding: 100px;
+    margin-top: 24vh;
+    padding: 55px;
     background: white;
 }
 
@@ -251,25 +248,24 @@ p {
   transform: translateY(-50%);
 }
 
-/* @media (min-width: 768px) {
-    .card img {
-        height: 11em;
-    }
-} */
-
 /* Quote */
 .quote {
-    height: 100vh;
+    height: 100%;
     background: rgba(58, 0, 91);
     color: #fff;
-    padding: 0 10vw 0 10vw;
+    padding: 10vw;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .quote-section {
     padding-top: 9vh;
+}
+
+.quote-media {
+    height: 100%;
 }
 
 /* Press & Media */
@@ -378,35 +374,18 @@ p {
         padding: 25px;
     }
 
-    h1 {
-        font-size: 36px !important;
-    }
-
-    p {
-        font-size: 24px !important;
-    }
-
     .about-section {
         height: 100%;
         background: #fff;
     }
 
     .about-box {
-        padding: 10px;
-        margin-bottom: 25px;
+        margin: 0px;
+        padding: 25x;
         background: white;
     }
 
-
-    .carousel-control-prev-icon {
-        margin-right: 50px;
-    } 
-    
-    .carousel-control-next-icon {
-        margin-left: 50px;
-    }
-
-    .arrow {
-        display: none !important;
+    .quote-media {
+        height: 45vh;
     }
 }
