@@ -360,6 +360,12 @@ p {
         height: 50px;
     }
 
+    #font-logo {
+        width: 169.38px;
+        height: 35px;
+        margin-left: 4px;
+    }
+
     #header {
         background: url("../images/header-background-dark-mobile.png") center;
         background-size: cover;
