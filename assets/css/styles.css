@@ -133,13 +133,19 @@ p {
 
 @keyframes beating {
     0% {
-        transform: scale(1.05);
-    }
-    80% {
         transform: scale(1.0);
     }
-    100% {
+    10% {
+        transform: scale(1.05);
+    }
+    60% {
+        transform: scale(1.0);
+    }
+    80% {
         transform: scale(1.06);
+    }
+    100% {
+        transform: scale(1.0);
     }
   }
 
