@@ -1,5 +1,9 @@
 /* Global */
 
+html {
+    scroll-behavior: smooth;
+}
+
 @font-face { 
     font-family: 'Gotham'; 
     src: url('Gotham-Book.otf');  
@@ -13,7 +17,31 @@
 @font-face { 
     font-family: 'GothamItalic'; 
     src: url('Gotham-BookItalic.otf'); 
-} 
+}
+
+#scroll-to-top {
+    width: 30px;
+    height: 30px;
+    color: white;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px;
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; 
+    outline: none; 
+    background-color: rgba(58, 0, 91); 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+  }
+  
+  #myBtn:hover {
+    background-color: rgb(42, 0, 66); /* Add a dark-grey background on hover */
+  }
 
 body { 
     /* padding-top: 50px;  */
@@ -71,6 +99,10 @@ p {
 }
 
 .card {
+    margin: 0 0.5em;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    border: none;
+    border-radius: 0;
     transition: 0.3s;
 }
 
@@ -85,24 +117,40 @@ p {
 .logo-icon {
     width: 98px;
     height: 98px;
-    transition: 0.3s;
+    /* box-shadow: 10px 10px 50px rgba(58, 0, 91); */
+}
+
+.navbar-brand:hover {
+    animation: beating .8s linear infinite;
 }
 
 #font-logo {
     width: 220px;
     height: 45.46px;
     margin-left: 8px;
-    transition: 0.3s;
+    /* transition: 0.3s; */
 }
+
+@keyframes beating {
+    0% {
+        transform: scale(1.05);
+    }
+    80% {
+        transform: scale(1.0);
+    }
+    100% {
+        transform: scale(1.06);
+    }
+  }
 
 .homepage-link {
     text-decoration: none !important;
 }
-
+/* 
 #font-logo:hover {
     transform: scale(1.05);
     transform-origin: bottom;
-}
+} */
 
 #navbar-content {
     font-size: 24px;
@@ -154,11 +202,6 @@ p {
 }
 
 /* Portfolio */
-
-#portfolio {
-    height: 85vh;
-}
-
 .portfolio-header {
     height: 10vh;
     background: rgba(58, 0, 91);
@@ -170,11 +213,49 @@ p {
     margin-top: 25px;
 }
 
-.pf-item a {
+.cards-wrapper a {
     margin-bottom: 25px;
     text-decoration: none;
     color: #000;
 }
+
+#cara-wrapper {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 75vw;
+  }
+
+.card img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.carousel-inner {
+    padding: 1em;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(58, 0, 91);
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* @media (min-width: 768px) {
+    .card img {
+        height: 11em;
+    }
+} */
 
 /* Quote */
 .quote {
