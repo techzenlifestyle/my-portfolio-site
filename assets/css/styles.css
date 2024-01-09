@@ -28,7 +28,7 @@ html {
 #myBtn {
     display: none; /* Hidden by default */
     position: fixed; 
-    bottom: 20px; 
+    bottom: 11vh; 
     right: 30px;
     z-index: 99; /* Make sure it does not overlap */
     border: none; 
@@ -188,7 +188,7 @@ p {
 /* About */
 .about-section {
     height: 100vh;
-    background: url("../images/jjk-gif.gif") center;
+    background: url("../images/space-short.gif") center;
     background-size: cover;
 }
 
@@ -270,7 +270,7 @@ p {
 
 /* Services */
 .services-container {
-    height: 50vh;
+    /* height: 50vh; */
     margin-top: 50px;
 }
 
@@ -407,5 +407,9 @@ p {
 
     .quote-media {
         height: 45vh;
+    }
+
+    .svc-images {
+        height: 12vh;
     }
 }
