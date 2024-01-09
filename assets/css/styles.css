@@ -268,6 +268,20 @@ p {
     height: 100%;
 }
 
+/* Services */
+.services-container {
+    height: 50vh;
+    margin-top: 50px;
+}
+
+.services-headings {
+    text-align: center;
+}
+
+.svc-icon {
+    fill: #ff0000; /* changes the color to red */
+  }
+
 /* Press & Media */
 .pr-header {
     margin-top: 25px;
