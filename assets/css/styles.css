@@ -64,9 +64,9 @@ em {
     font-style: normal;
  }
 
-footer {
+/* footer {
     height: 65vh;
-}
+} */
 
 p {
     font-size: 16px;
@@ -194,7 +194,7 @@ p {
 }
 
 .about-box {
-    margin-top: 24vh;
+    margin-top: 40vh;
     padding: 55px;
     background: white;
 }
@@ -204,7 +204,9 @@ p {
     height: 10vh;
     background: rgba(58, 0, 91);
     color: white;
-    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .portfolio-content {
