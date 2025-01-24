@@ -177,13 +177,14 @@ p {
     background-size: cover;
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 100vh;
     color: white !important;
 }
 
-.header-content {
+/* .header-content {
     margin-left: -100px;
-}
+} */
 
 /* About */
 .about-section {
